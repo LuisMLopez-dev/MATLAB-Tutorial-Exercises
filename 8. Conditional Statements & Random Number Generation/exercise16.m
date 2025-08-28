@@ -10,5 +10,6 @@ else
     rEQSeries = sum(resistorValues);
     rEQParallel = 1 ./ sum(1 ./ resistorValues);
     fprintf('Series Equivalent Resistance: %.2f\n', rEQSeries);
-    fprintf('Parallel Equvalent Resistance: %.2f\n', rEQParallel);
+    fprintf('Parallel Equivalent Resistance: %.2f\n', rEQParallel);
 end
+
